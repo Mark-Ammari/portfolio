@@ -64,7 +64,7 @@
     transform: scaleX(1);
 }
 
-@media only screen and (max-width: 1366px) {
+@media only screen and (max-width: 1386px) {
     .Nav ul li {
         margin-left: 0;
         margin-right: 1em;
@@ -74,7 +74,7 @@
     }
 }
 
-@media only screen and (min-width: 1367px) {
+@media only screen and (min-width: 1387px) {
     .Nav ul li {
         margin-left: 1em;
         margin-right: 0;

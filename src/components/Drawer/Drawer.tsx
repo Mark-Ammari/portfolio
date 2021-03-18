@@ -16,6 +16,9 @@ const useStyles = makeStyles({
     },
     socialMargin: {
         marginLeft: 10
+    },
+    btn: {
+        marginRight: "1em"
     }
 });
 
@@ -86,7 +89,7 @@ export default function Drawer() {
 
     return (
         <div className={styles.Drawer}>
-            <IconButton className={styles.Btn} onClick={toggleDrawer("right", true)}>{<MenuRounded />}</IconButton>
+            <IconButton className={classes.btn} onClick={toggleDrawer("right", true)}>{<MenuRounded />}</IconButton>
             <SwipeableDrawer
                 anchor="right"
                 open={state}
