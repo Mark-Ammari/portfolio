@@ -1,0 +1,10 @@
+.Title {
+    margin: 10px;
+}
+
+.Title h1 {
+    margin: 0;
+    font-size: 32pt;
+    letter-spacing: 1pt;
+    color: #2ec07a
+}

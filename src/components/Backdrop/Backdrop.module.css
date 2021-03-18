@@ -1,0 +1,233 @@
+.Backdrop {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.Summary h1 {
+    font-size: 28pt;
+    margin: 0;
+    text-align: left;
+}
+
+.Summary h3 {
+    font-size: 18pt;
+    margin: 0;
+    text-align: left;
+    letter-spacing: 1pt;
+    color: #2ec07a;
+}
+
+.Summary p {
+    color: #777;
+    margin: 10px 0;
+    width: 100%;
+    font-size: 10pt;
+    text-align: left;
+}
+
+.Banner {
+    width: 300px
+}
+
+@media only screen and (max-width: 500px) {
+    .Backdrop {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .Summary h1 {
+        font-size: 28pt;
+        margin: 0;
+        text-align: center;
+    }
+    
+    .Summary h3 {
+        font-size: 18pt;
+        margin: 0;
+        text-align: center;
+        letter-spacing: 1pt;
+        color: #2ec07a;
+    }
+    
+    .Summary p {
+        color: #777;
+        margin: 10px 0;
+        width: 300px;
+        font-size: 10pt;
+        text-align: left;
+    }
+
+    .Banner {
+        width: 300px
+    }
+}
+
+@media only screen and (min-width: 501px) {
+    .Backdrop {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .Summary h1 {
+        font-size: 36pt;
+        margin: 0;
+        text-align: center;
+    }
+    
+    .Summary h3 {
+        font-size: 24pt;
+        margin: 0;
+        text-align: center;
+        letter-spacing: 1pt;
+        color: #2ec07a;
+    }
+    
+    .Summary p {
+        color: #777;
+        margin: 10px 0;
+        width: 450px;
+        font-size: 10pt;
+        text-align: left;
+    }
+    
+    .Banner {
+        width: 450px
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .Backdrop {
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 768px;
+    }
+
+    .Summary {
+        width: 374px;
+    }
+    
+    .Summary h1 {
+        font-size: 30pt;
+        margin: 0;
+        text-align: left;
+    }
+    
+    .Summary h3 {
+        font-size: 20pt;
+        margin: 0;
+        text-align: left;
+        letter-spacing: 1pt;
+        color: #2ec07a;
+    }
+    
+    .Summary p {
+        color: #777;
+        margin: 10px 0;
+        width: 384px;
+        font-size: 10pt;
+        text-align: left;
+    }
+    
+    .Banner {
+        width: 374px
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .Backdrop {
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 1024px;
+    }
+
+    .Summary {
+        width: 384px;
+    }
+    
+    .Summary h1 {
+        font-size: 30pt;
+        margin: 0;
+        text-align: left;
+    }
+    
+    .Summary h3 {
+        font-size: 20pt;
+        margin: 0;
+        text-align: left;
+        letter-spacing: 1pt;
+        color: #2ec07a;
+    }
+    
+    .Summary p {
+        color: #777;
+        margin: 10px 0;
+        width: 384px;
+        font-size: 10pt;
+        text-align: left;
+    }
+    
+    .Banner {
+        width: 502px
+    }
+}
+
+@media only screen and (min-width: 1366px) {
+    .Backdrop {
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 1366px;
+    }
+
+    .Summary {
+        width: 502px;
+    }
+    
+    .Summary h1 {
+        font-size: 30pt;
+        margin: 0;
+        text-align: left;
+    }
+    
+    .Summary h3 {
+        font-size: 20pt;
+        margin: 0;
+        text-align: left;
+        letter-spacing: 1pt;
+        color: #2ec07a;
+    }
+    
+    .Summary p {
+        color: #777;
+        margin: 10px 0;
+        width: 502px;
+        font-size: 12pt;
+        text-align: left;
+    }
+    
+    .Banner {
+        width: 683px
+    }
+}
+
+

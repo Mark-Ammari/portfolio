@@ -1,5 +1,13 @@
 .App {
-  text-align: center;
+  overflow-x: hidden;
+  margin: auto;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.HeaderBlock {
+  height: 60px;
+  width: 100%;
+  margin-bottom: 1em;
 }
 
 .App-logo {

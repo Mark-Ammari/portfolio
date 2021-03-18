@@ -1,0 +1,111 @@
+.Socials svg {
+    width: 25px;
+    height: 25px;
+    margin: 0 10px 10px 0;
+}
+
+.Socials {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: auto;
+}
+
+.SocialMedias {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.SocialMedias a {
+    transition: 250ms ease-in-out;
+}
+
+.SocialMedias a:hover {
+    opacity: 0.5;
+}
+
+@media only screen and (max-width: 500px) {
+    .Socials svg {
+        width: 25px;
+        margin: 0px 10px 0 0;
+    }
+    
+    .SocialMedias a {
+        width: 25px;
+        height: 25px;
+        margin: 0px 10px 0 0;
+    }
+    
+    .Socials {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: auto;
+    }
+    
+    .SocialMedias {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+}
+
+@media only screen and (min-width: 501px) {
+    .Socials svg {
+        width: 25px;
+        margin: 0px 10px 0 0;
+    }
+    .SocialMedias a {
+        width: 25px;
+        height: 25px;
+        margin: 0px 10px 0 0;
+    }
+    
+    .Socials {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: auto;
+    }
+    
+    .SocialMedias {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .Socials svg {
+        width: 25px;
+        margin: 0px 10px 0 0;
+    }
+
+    .SocialMedias a {
+        width: 25px;
+        height: 25px;
+        margin: 0px 10px 0 0;
+    }
+    
+    .Socials {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: auto;
+    }
+    
+    .SocialMedias {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+}

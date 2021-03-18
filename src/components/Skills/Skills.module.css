@@ -1,0 +1,38 @@
+
+@media only screen and (max-width: 600px) {
+    .Skills {
+        display: grid;
+        width: auto;
+        gap: 50px;
+        grid-template-columns: auto;
+    }
+}
+
+@media only screen and (min-width: 601px) {
+    .Skills {
+        display: grid;
+        width: auto;
+        grid-template-columns: auto auto;
+        gap: 50px;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .Skills {
+        grid-template-columns: auto auto auto;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .Skills {
+        grid-template-columns: auto auto auto auto;
+    }
+}
+
+@media only screen and (min-width: 1386px) {
+    .Skills {
+        width: 1366px;
+        margin: auto;
+        grid-template-columns: auto auto auto auto;
+    }
+}

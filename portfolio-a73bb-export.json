@@ -1,0 +1,197 @@
+{
+  "experience": [
+    {
+      "asset": "https://cdn.vox-cdn.com/thumbor/MQZiSQXt4CGZgawt5Lst1Wvrep8=/1400x1050/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/20051474/fubo.jpg",
+      "company_name": "FuboTV",
+      "description": [
+        "Provide first-line support between the customer care team, the product-focused software engineering teams, and business partners with a mission to improve the reliability of the FuboTV platform.",
+        "Determining the best course of action for large scale issues by extracting relevant information and reproducing the issues to work towards a solution with the appropriate engineering team.",
+        "Used metrics and analytics such as Datadog, Amplitude, and Datastudio to escalate rebuffering issues on the national or state level to our CDN by identifying various POPs experiencing high latency.",
+        "Created or updated project modules to execute PostgreSQL database crud operations for each vod metadata and writing automated test cases to assess each crud operation.",
+        "Contacted source providers and business partners to resolve live streaming and data issues on the platform such as a/v issues, stale manifests, macroblocking/artifacts, source outages, packet loss, publishing errors, incorrect guide, and asset data."
+      ],
+      "end_date": "Present",
+      "location": "New York City, NY",
+      "position": "Triage Engineer",
+      "start_date": "07/08/2019",
+      "tech_stack": [
+        "Datadog",
+        "Datastudio",
+        "Amplitude",
+        "Zendesk"
+      ]
+    },
+    {
+      "asset": "https://cdn.aarp.net/content/dam/aarp/entertainment/books/2017/10/1140-time-inc-magazines.imgcache.rev59f3ddc5848de292df94f6463a464753.jpg",
+      "company_name": "Meredith Corporation",
+      "description": [
+        "Used Golang, AWS Lambda, AWS S3 Bucket, and AWS API Gateway to produce a makeshift WAF implementation to filter out specific IP-Addresses from seeing advertisements. Reducing the amount of invalid traffic saved 20% of ad revenue per year.",
+        "Created a webpage displaying ads from Google Publisher Tags to test for ad latency.",
+        "Performed debugging and unit testing for makeshift WAF implementation.",
+        "Used Vue.js and AWS API Gateway to create a dashboard website that fetched the makeshift WAF implementation.",
+        "Created an algorithm that reads a CSV file and converts it to a golang file as an array of strings."
+      ],
+      "end_date": "05/04/2018",
+      "location": "New York City, NY",
+      "position": "Software Engineer",
+      "start_date": "01/28/2018",
+      "tech_stack": [
+        "Golang",
+        "Vuejs",
+        "AWS Lambda",
+        "HTML",
+        "CSS",
+        "Javascript"
+      ]
+    },
+    {
+      "asset": "https://ixco-cloudinary.corebine.com/ixco-production/image/upload/c_fill,dpr_1.0,f_jpg,h_565,w_1080/v1/ixco-prod/products-hero",
+      "company_name": "Omnigon Communications LLC",
+      "description": [
+        "Upgraded and downgraded mobile devices using Verizon’s specialize software.",
+        "Mobile Quality Assurance for INDYCAR App including smoke testing various Verizon devices to ensure app and device interaction adhere to guidelines and company standards.",
+        "Worked with the director of Motorsports to create Standard Operating Procedures at Verizon headquarters to detail a step-by-step guide on Multicast testing for the INDYCAR app.",
+        "Managed the IBM MaaS360 app to register all company devices into a storage unit for tracking.",
+        "Collected reported crash logs using New Relic monitoring system for INDYCAR live racing events for Developer code analysis.",
+        "Traveled on site to Verizon Headquarters in New Jersey to participate in Multicast debug testing.",
+        "Maintained confluence documents to track all device results and health check."
+      ],
+      "end_date": "08/25/2016",
+      "location": "New York City, NY",
+      "position": "Quality Assurance Analyst",
+      "start_date": "06/03/2016",
+      "tech_stack": [
+        "New Relic",
+        "IBM MaaS360"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "assets": {
+        "desktop": "https://firebasestorage.googleapis.com/v0/b/portfolio-a73bb.appspot.com/o/channelfinder_desktop-iMac.png?alt=media&token=a76c48a0-9326-4c02-a427-aedaee3ef242",
+        "laptop": "https://firebasestorage.googleapis.com/v0/b/portfolio-a73bb.appspot.com/o/channelfinder_desktop.png?alt=media&token=c2240853-4ddd-459e-a1d4-e0899a7fc722",
+        "mobile": "https://firebasestorage.googleapis.com/v0/b/portfolio-a73bb.appspot.com/o/channelfinder_phone.png?alt=media&token=ecf29712-92ef-4da3-8c01-84ee968c4990"
+      },
+      "description": "Developed a channel finder app that will find the proper channels for the basic and Latino package based on your postal code.",
+      "source_code": "https://github.com/Mark-Ammari/channelfinder",
+      "tech_stack": [
+        "React",
+        "Redux",
+        "Material-UI",
+        "Git"
+      ],
+      "tech_stack_description": "ChannelFinder is a geolocation application that essentially will give you the local, national, and exclusive channels based on your postal code. You can also checkout what channels you get based on your plans. The website uses React and Material-UI as the frontend for design. Incorporated FuboTV API that will return the assets and description of each channel based on zipcode.",
+      "title": "ChannelFinder",
+      "url": "https://mark-ammari.github.io/channelfinder/"
+    },
+    {
+      "assets": {
+        "desktop": "https://firebasestorage.googleapis.com/v0/b/portfolio-a73bb.appspot.com/o/moviemarket_desktop-iMac.png?alt=media&token=2fb82e6f-e1a9-43c3-a31c-37aa0b273945",
+        "laptop": "https://firebasestorage.googleapis.com/v0/b/portfolio-a73bb.appspot.com/o/moviemarket_desktop.png?alt=media&token=52f8e785-54a0-45de-bd44-a74a137477c8",
+        "mobile": "https://firebasestorage.googleapis.com/v0/b/portfolio-a73bb.appspot.com/o/moviemarket_phone.png?alt=media&token=de8ca05a-7e32-4154-a94c-a2b5fb1aecdd"
+      },
+      "description": "Movie and TV series browsing application; users can find details and add or remove assets from their favorites.",
+      "source_code": "https://github.com/Mark-Ammari/moviemarket",
+      "tech_stack": [
+        "React",
+        "Redux",
+        "Router",
+        "Git",
+        "Express",
+        "MongoDB",
+        "Material-UI",
+        "Javascript"
+      ],
+      "tech_stack_description": "MovieMarket is built with React, Redux, and Material-UI for UI/UX and state management. Intergrated TheMovieDB API to populate the application with movies, shows, and images. Used Node.js, Express.JS, Express-Session, and MongoDB for server and database management to handle backend logic and database updates for users.",
+      "title": "MovieMarket",
+      "url": "https://moviemarket.herokuapp.com/"
+    },
+    {
+      "assets": {
+        "desktop": "https://firebasestorage.googleapis.com/v0/b/portfolio-a73bb.appspot.com/o/trello_desktop-iMac.png?alt=media&token=4107fee5-bcb7-4820-bc6a-2e94cb021b62",
+        "laptop": "https://firebasestorage.googleapis.com/v0/b/portfolio-a73bb.appspot.com/o/trello_desktop.png?alt=media&token=d45d7075-a69e-422b-8db4-5103916ab01b",
+        "mobile": "https://firebasestorage.googleapis.com/v0/b/portfolio-a73bb.appspot.com/o/trello_phone.png?alt=media&token=5ed52677-7700-4fa9-91dc-11ada4dd4286"
+      },
+      "description": "Developed a Kanban-like application that will track your progress by utilizing the principles of CRUD.",
+      "source_code": "https://github.com/Mark-Ammari/trello-copy",
+      "tech_stack": [
+        "React",
+        "Redux",
+        "Material-UI",
+        "Javascript",
+        "Express",
+        "Firebase",
+        "Git"
+      ],
+      "tech_stack_description": "TrelloCopycat is an application to perform CRUD operations to create, read, update, and delete cards. Used React and Redux to manage state changes throughout the application and Node.js, Express.js, and Firebase to send request to manipulate data in the Backend. Finally, used the Context API from React to change the color scheme of the webpage.",
+      "title": "TrelloCopycat",
+      "url": "https://trellocopycat.herokuapp.com/"
+    }
+  ],
+  "skills": [
+    {
+      "title": "Programming Languages",
+      "list": [
+        "Golang",
+        "Javascript",
+        "Typescript"
+      ]
+    },
+    {
+      "title": "Frontend Technology",
+      "list": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "React"
+      ]
+    },
+    {
+      "title": "Backend Technology",
+      "list": [
+        "Golang",
+        "Javascript",
+        "Node",
+        "Express"
+      ]
+    },
+    {
+      "title": "Prominent Libraries",
+      "list": [
+        "Redux",
+        "React Router",
+        "Material-UI"
+      ]
+    },
+    {
+      "title": "Management & Tracking",
+      "list": [
+        "Jira",
+        "Zendesk",
+        "Confluence"
+      ]
+    },
+    {
+      "title": "Cloud Services",
+      "list": [
+        "AWS Lambda",
+        "MongoDB",
+        "Firebase"
+      ]
+    },
+    {
+      "title": "Server Side",
+      "list": [
+        "Golang",
+        "Node"
+      ]
+    },
+    {
+      "title": "Version Control",
+      "list": [
+        "Git"
+      ]
+    }
+  ]
+}

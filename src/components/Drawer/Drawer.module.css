@@ -1,0 +1,21 @@
+.Link {
+    cursor: pointer;
+    color: #999;
+    font-weight: bold;
+    position: relative;
+    padding-bottom: 2px;
+    transition: all 300ms ease-in-out;
+}
+
+.Link:hover {
+    color: #2ec07a;
+    
+}
+
+.ActiveLink {
+    color: #2ec07a;
+}
+
+.Btn {
+    margin-right: 1em;
+}

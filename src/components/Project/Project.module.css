@@ -1,0 +1,280 @@
+.Project {
+    margin-bottom: 10px;
+}
+.Devices {
+    width: 300px;
+    height: 171.89px;
+    padding: 0;
+    margin: auto;
+    position: relative;
+}
+
+.Devices img {
+    position: absolute;
+    margin: auto;
+}
+
+.Desktop {
+    width: 200px;
+}
+
+.Laptop {
+    width: 200px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.Mobile {
+    width: 50px;
+    z-index: 1;
+    bottom: 0px;
+}
+
+.Project h1 {
+    margin: auto;
+    text-align: left;
+}
+
+.Project h1:first-child {
+    color: #2ec07a
+}
+
+.Descriptors {
+    margin: auto;
+    width: 300px;
+    text-align: left;
+    font-size: 10pt;
+    margin-bottom: 10px;
+}
+
+.InfoContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Links {
+    width: 300px;
+}
+
+.TechStack {
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 500px) {
+    .Project {
+        margin-bottom: 10px;
+    }
+    .Devices {
+        width: 300px;
+        height: 171.89px;
+        padding: 0;
+        margin: auto;
+        position: relative;
+    }
+    
+    .Devices img {
+        position: absolute;
+        margin: auto;
+    }
+    
+    .Desktop {
+        width: 200px;
+    }
+    
+    .Laptop {
+        width: 200px;
+        right: 0px;
+        bottom: 0px;
+    }
+    
+    .Mobile {
+        width: 50px;
+        z-index: 1;
+        bottom: 0px;
+    }
+    
+    .Project h1 {
+        margin: auto;
+        text-align: left;
+    }
+    
+    .Project h1:first-child {
+        color: #2ec07a
+    }
+    
+    .Descriptors {
+        margin: auto;
+        width: 300px;
+        text-align: left;
+        font-size: 10pt;
+        margin-bottom: 10px;
+    }
+    
+    .InfoContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .Links {
+        width: 300px;
+    }
+    
+    .TechStack {
+        width: 300px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (min-width: 501px) {
+    .Project {
+        margin-bottom: 10px;
+    }
+    .Devices {
+        width: 500px;
+        height: 287.92px;
+        padding: 0;
+        margin: auto;
+        position: relative;
+    }
+    
+    .Devices img {
+        position: absolute;
+        margin: auto;
+    }
+    
+    .Desktop {
+        width: 333px;
+    }
+    
+    .Laptop {
+        width: 333px;
+        right: 0px;
+        bottom: 0px;
+    }
+    
+    .Mobile {
+        width: 84px;
+        z-index: 1;
+        bottom: 0px;
+    }
+    
+    .Project h1 {
+        margin: auto;
+        text-align: left;
+    }
+    
+    .Project h1:first-child {
+        color: #2ec07a
+    }
+    
+    .Descriptors {
+        margin: auto;
+        width: 500px;
+        text-align: left;
+        font-size: 10pt;
+        margin-bottom: 10px;
+    }
+    
+    .InfoContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .Links {
+        width: 500px;
+    }
+    
+    .TechStack {
+        width: 500px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+}
+
+@media only screen and (min-width: 1366px) {
+    .Project {
+        margin-bottom: 10px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .Devices {
+        width: 683px;
+        height: 391.06px;
+        padding: 0;
+        margin: auto;
+        position: relative;
+    }
+    
+    .Devices img {
+        position: absolute;
+        margin: auto;
+    }
+    
+    .Desktop {
+        width: 455px;
+    }
+    
+    .Laptop {
+        width: 455px;
+        right: 0px;
+        bottom: 0px;
+    }
+    
+    .Mobile {
+        width: 114px;
+        z-index: 1;
+        bottom: 0px;
+    }
+    
+    .Project h1 {
+        margin: auto;
+        text-align: left;
+    }
+    
+    .Project h1:first-child {
+        color: #2ec07a
+    }
+    
+    .Descriptors {
+        margin: auto;
+        width: 683px;
+        text-align: left;
+        font-size: 10pt;
+        margin-bottom: 10px;
+    }
+    
+    .InfoContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .Links {
+        width: 683px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .TechStack {
+        width: 683px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+}

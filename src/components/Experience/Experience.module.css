@@ -1,0 +1,319 @@
+.Experience {
+    display: grid;
+    grid-template-columns: 200px 25px 600px;
+}
+
+.Date {
+    color: #777;
+    margin: 0;
+    text-align: right;
+    padding: 0;
+}
+
+.BulletPoint {
+    background-color: #2ec07a;
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    left: -2px;
+    top: 27.8px;
+}
+
+.Timeframe {
+    line-height: 41.6px;
+    margin: 10px 0 0 0
+}
+
+.Description {
+    position: relative;
+    padding: 10px 0 0 10px;
+}
+
+.CompanyName {
+    margin: 0 0 10px 0;
+    font-size: 25.6pt;
+}
+
+.Position {
+    font-style: italic;
+    font-weight: bold;
+    margin: 0;
+}
+
+.Location {
+    font-style: italic;
+    margin: 0 0 10px 0;
+    color: #777
+}
+
+.VerticalLine {
+    width: 1px;
+    height: inherit;
+    background-color: #999;
+    margin: 0 10px;
+    position: relative;
+}
+
+.List {
+    margin: 10px 0 0 0;
+    width: 500px;
+    list-style-type: none;
+    padding-left: 2em;
+}
+
+.List li {
+    margin-bottom: 10px;
+}
+
+.List li::before {
+    content: "\27A6 ";
+    margin-right: 5px;
+    color: #2ec07a;
+}
+
+.Tools {
+    margin: 0;
+    font-weight: bold;
+}
+
+.TechStack {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 10px 0;
+}
+
+.HorizontalLine {
+    width: auto;
+    height: 1px;
+    margin-bottom: 10px;
+    background: rgb(153, 153, 153);
+    background: radial-gradient(circle, rgba(153, 153, 153, 1) 0%, rgba(255, 255, 255, 1) 100%);
+}
+
+@media only screen and (max-width: 400px) {
+    .Experience {
+        display: flex;
+        max-width: 300px;
+        margin: auto;
+        padding: 15px;
+    }
+    .Timeframe {
+        margin: 0;
+        line-height: 19.6px;
+        color: #777;
+        font-size: 10pt;
+    }
+    .CompanyName {
+        font-size: 13pt;
+    }
+    .Position {
+        font-size: 10pt;
+    }
+    .Location {
+        margin: 0;
+        font-size: 10pt;
+    }
+    .Description {
+        padding: 0;
+        font-size: 10pt;
+    }
+    .List {
+        padding: 0;
+        max-width: 300px;
+    }
+    .List li {
+        margin-bottom: 10px;
+        max-width: 850px;
+    }
+    .List li::before {
+        content: "\27A6 ";
+        margin-right: 5px;
+        color: #2ec07a;
+    }
+    .Tools {
+        margin: 0;
+        font-size: 10pt;
+    }
+    .TechStack {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        max-width: 850px;
+        flex-wrap: wrap;
+        font-size: 10pt;
+    }
+}
+
+@media only screen and (min-width: 401px) {
+    .Experience {
+        display: flex;
+        max-width: 380px;
+        margin: auto;
+        padding: 15px;
+    }
+    .Timeframe {
+        margin: 0;
+        line-height: 19.6px;
+        color: #777;
+        font-size: 12pt;
+    }
+    .CompanyName {
+        font-size: 17pt;
+    }
+    .Position {
+        font-size: 12pt;
+    }
+    .Location {
+        margin: 0;
+        font-size: 12pt;
+    }
+    .Description {
+        padding: 0;
+        font-size: 12pt;
+    }
+    .List {
+        padding: 0;
+        max-width: 380px;
+    }
+    .List li {
+        margin-bottom: 10px;
+        max-width: 380px;
+    }
+    .List li::before {
+        content: "\27A6 ";
+        margin-right: 5px;
+        color: #2ec07a;
+    }
+    .Tools {
+        margin: 0;
+        font-size: 12pt;
+    }
+    .TechStack {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        max-width: 850px;
+        flex-wrap: wrap;
+        font-size: 12pt;
+    }
+}
+
+@media only screen and (min-width: 501px) {
+    .Experience {
+        max-width: 480px
+    }
+    .Timeframe {
+        font-size: 12pt;
+    }
+    .CompanyName {
+        font-size: 21pt;
+    }
+    .List {
+        max-width: 480px;
+    }
+    .List li {
+        margin-bottom: 10px;
+        max-width: 480px;
+    }
+    .List li::before {
+        content: "\27A6 ";
+        margin-right: 5px;
+        color: #2ec07a;
+    }
+    .Tools {
+        margin: 0;
+        font-size: 12pt;
+    }
+    .TechStack {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        max-width: 850px;
+        flex-wrap: wrap;
+        font-size: 12pt;
+    }
+}
+
+@media only screen and (min-width: 850px) {
+    .Experience {
+        margin: auto;
+        display: grid;
+        padding: 0;
+        max-width: 1366px;
+        grid-template-columns: 200px 25px 600px;
+    }
+    .Date {
+        color: #777;
+        margin: 0;
+        text-align: right;
+        padding: 0;
+    }
+    .BulletPoint {
+        background-color: #2ec07a;
+        position: absolute;
+        width: 5px;
+        height: 5px;
+        left: -2px;
+        top: 27.8px;
+    }
+    .Timeframe {
+        line-height: 41.6px;
+        margin: 10px 0 0 0
+    }
+    .Description {
+        position: relative;
+        padding: 10px 0 0 10px;
+    }
+    .CompanyName {
+        margin: 0 0 10px 0;
+        font-size: 25.6pt;
+    }
+    .Position {
+        font-style: italic;
+        font-weight: bold;
+        margin: 0;
+    }
+    .Location {
+        font-style: italic;
+        margin: 0 0 10px 0;
+        color: #777
+    }
+    .VerticalLine {
+        width: 1px;
+        height: inherit;
+        background-color: #999;
+        margin: 0 10px;
+        position: relative;
+    }
+    .List {
+        margin: 10px 0 0 0;
+        width: 500px;
+        list-style-type: none;
+        padding-left: 2em;
+    }
+    .List li {
+        margin-bottom: 10px;
+    }
+    .List li::before {
+        content: "\27A6 ";
+        margin-right: 5px;
+        color: #2ec07a;
+    }
+    .Tools {
+        margin: 0;
+    }
+    .TechStack {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin: 10px 0;
+    }
+    .HorizontalLine {
+        width: auto;
+        height: 1px;
+        margin-bottom: 10px;
+        background: rgb(153, 153, 153);
+        background: radial-gradient(circle, rgba(153, 153, 153, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    }
+}

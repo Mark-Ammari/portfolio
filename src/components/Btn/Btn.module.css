@@ -1,0 +1,29 @@
+.Btn {
+    padding: 12px;
+    height: auto;
+    margin: 10px auto;
+    width: 100%;
+    display: block;
+    font-size: 18px;
+    background-color: #2ec07a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: 500ms ease-in-out;
+}
+
+.Btn:hover {
+    opacity: 0.75;
+    cursor: pointer;
+}
+
+.Btn:focus {
+    outline: #2ec07a;
+    animation: scale 250ms ease-in-out;
+}
+
+@keyframes scale {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.02); }
+    100% { transform: scale(1); }
+  }

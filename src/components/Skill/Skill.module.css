@@ -1,0 +1,30 @@
+.Skill h3 {
+    margin: 0;
+}
+
+.Skill {
+    /* margin-bottom: 10px */
+}
+
+.Skill h3 span {
+    color: #2ec07a;
+    margin: 0;
+}
+
+.List {
+    padding: 10px 0 0 0;
+    margin: 0 0 0 2em;
+    border-left: 1px solid #999;
+}
+
+.List li {
+    padding: 0 1em 0 0;
+    margin: 0 0 10px 0;
+    list-style: none;
+}
+
+.List li::before {
+    content: "\25CF ";
+    margin: 0 10px 0 -5.2px;
+    color: #6dd3a2
+}

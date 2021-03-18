@@ -1,9 +1,13 @@
 import { configureStore, ThunkAction, Action } from '@reduxjs/toolkit';
-import counterReducer from '../features/counter/counterSlice';
+import experienceReducer from '../store/reducers/experienceReducer';
+import projectReducer from '../store/reducers/projectReducer';
+import skillsReducer from '../store/reducers/skillsReducer';
 
 export const store = configureStore({
   reducer: {
-    counter: counterReducer,
+    experience: experienceReducer,
+    project: projectReducer,
+    skills: skillsReducer
   },
 });
 
