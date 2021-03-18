@@ -1,7 +1,7 @@
 {
-  "name": "my-app",
+  "name": "Portfolio",
   "version": "0.1.0",
-  "homepage": "https://mark-ammari.github.io/portfolio",
+  "homepage": "https://mark-ammari.github.io/portfolio/",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.11.3",
