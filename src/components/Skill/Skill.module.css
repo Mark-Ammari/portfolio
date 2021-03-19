@@ -1,30 +1,39 @@
 .Skill h3 {
     margin: 0;
-}
-
-.Skill {
-    /* margin-bottom: 10px */
+    font-size: 12pt;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 4.2px;
 }
 
 .Skill h3 span {
     color: #2ec07a;
+    font-size: 12pt;
     margin: 0;
+    margin-right: 4.2px;
+}
+
+.Skill {
+    width: auto;
+    overflow-wrap: anywhere;
+    text-align: left;
 }
 
 .List {
     padding: 10px 0 0 0;
-    margin: 0 0 0 2em;
+    margin: 0 0 2em 2em;
     border-left: 1px solid #999;
+    font-style: italic;
 }
 
 .List li {
-    padding: 0 1em 0 0;
+    padding: 0 0 0 10px;
     margin: 0 0 10px 0;
     list-style: none;
 }
 
 .List li::before {
-    content: "\25CF ";
-    margin: 0 10px 0 -5.2px;
     color: #6dd3a2
 }

@@ -11,16 +11,16 @@ const Skills: React.FC = () => {
         Aos.init({ duration: 1000, once: true })
     })
     const skill = useSelector(skillsData)
-    console.log(skill)
     return (
         <div className={classes.Skills}>
             {skill.map((skill: any, skillIndex: number) => {
                 return <Skill 
+                    key={skillIndex}
                     mainTitle={skill["title"].split(" ")[0]}
                     secondaryTitle={skill["title"].split(" ")[1]}
                     list={
                         skill["list"].map((list: any, listIndex: number) => {
-                            return <li data-delay="500" data-aos="fade-left">{list}</li>
+                            return <li key={listIndex} data-delay="500" data-aos="fade-left">{list}</li>
                         })
                     }
                 />

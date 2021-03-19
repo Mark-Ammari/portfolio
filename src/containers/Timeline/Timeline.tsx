@@ -15,6 +15,7 @@ const Timeline: React.FC = () => {
             {data.map((job: any, jobIndex: number) => {
                 return (
                     <Experience 
+                        key={jobIndex}
                         startDate={job["start_date"]}
                         endDate={job["end_date"]}
                         companyName={job["company_name"]}
@@ -22,12 +23,12 @@ const Timeline: React.FC = () => {
                         location={job["location"]}
                         description={
                             job["description"].map((desc: string, descIndex: number) => {
-                                return <li>{desc}</li>
+                                return <li key={descIndex}>{desc}</li>
                             })
                         }
                         techStack={
                             job["tech_stack"].map((techStack: string, techStackIndex: number) => {
-                                return <ListItem>{techStack}</ListItem>
+                                return <ListItem key={techStackIndex}>{techStack}</ListItem>
                             })
                         }
                     />

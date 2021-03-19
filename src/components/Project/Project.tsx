@@ -27,7 +27,7 @@ const Project: React.FC<ProjectProps> = ({desktop, techStack, laptop, mobile, de
                 <img className={classes.Desktop} src={desktop} alt="Desktop-App"/>
                 <img className={classes.Laptop} src={laptop} alt="Laptop-App"/>
             </div>
-            <div data-aos="fade-left" data-aos-delay="500" className={classes.InfoContainer}>
+            <div data-aos="fade-left" className={classes.InfoContainer}>
                 <div className={classes.Details}>
                     <h1>{title}</h1>
                     <p className={classes.Descriptors}>{description}</p>

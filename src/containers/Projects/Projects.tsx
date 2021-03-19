@@ -14,6 +14,7 @@ const Projects: React.FC = () => {
             <Title>Projects</Title>
             {data.map((project: any, projectIndex: number) => {
                 return <Project
+                    key={projectIndex}
                     desktop={project.assets.desktop}
                     laptop={project.assets.laptop}
                     mobile={project.assets.mobile}
@@ -23,7 +24,7 @@ const Projects: React.FC = () => {
                     url={project.url}
                     sourceCode={project["source_code"]}
                     techStack={project["tech_stack"].map((techStack: any, techStackIndex: number) => {
-                        return <ListItem>{techStack}</ListItem>
+                        return <ListItem key={techStackIndex}>{techStack}</ListItem>
                     })}
                 />
             })}
